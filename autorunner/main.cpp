@@ -84,7 +84,7 @@ int main() {
     << std::endl
     << "All "
     << UnitTestsSummary::count()
-    << "tests passed"
+    << " tests passed"
     << std::endl;
 
   return 0;
