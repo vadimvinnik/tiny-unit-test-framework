@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "demo", "demo\demo.vcxproj", "{C935EADE-7D55-4F86-8701-41B590D4F4B7}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TinyUnitTestDemo", "TinyUnitTestDemo\TinyUnitTestDemo.vcxproj", "{C935EADE-7D55-4F86-8701-41B590D4F4B7}"
 	ProjectSection(ProjectDependencies) = postProject
 		{C3F47021-8684-46B2-8F82-1A2C4D04FC5F} = {C3F47021-8684-46B2-8F82-1A2C4D04FC5F}
 		{FA704ED1-B911-4ED6-B0F5-9E6152FEB167} = {FA704ED1-B911-4ED6-B0F5-9E6152FEB167}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kernel", "kernel\kernel.vcxproj", "{C3F47021-8684-46B2-8F82-1A2C4D04FC5F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TinyUnitTestKernel", "TinyUnitTestKernel\TinyUnitTestKernel.vcxproj", "{C3F47021-8684-46B2-8F82-1A2C4D04FC5F}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "autorunner", "autorunner\autorunner.vcxproj", "{FA704ED1-B911-4ED6-B0F5-9E6152FEB167}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TinyUnitTestRunner", "TinyUnitTestRunner\TinyUnitTestRunner.vcxproj", "{FA704ED1-B911-4ED6-B0F5-9E6152FEB167}"
 	ProjectSection(ProjectDependencies) = postProject
 		{C3F47021-8684-46B2-8F82-1A2C4D04FC5F} = {C3F47021-8684-46B2-8F82-1A2C4D04FC5F}
 	EndProjectSection
